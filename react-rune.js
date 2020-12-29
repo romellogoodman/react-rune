@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import RuneJS from "rune.js";
 
 const Rune = (props) => {
-  const { container = ".canvas", draw, height, width, onUpdate, play } = props;
+  const { container = "#canvas", draw, height, width, onUpdate, play } = props;
 
   useEffect(() => {
     const rune = new RuneJS({
