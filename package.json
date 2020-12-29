@@ -1,0 +1,32 @@
+{
+  "name": "react-rune",
+  "version": "1.0.0",
+  "description": "React wrapper for [Rune.js](https://runemadsen.github.io/rune.js/index.html)",
+  "source": "react-rune.js",
+  "main": "dist/react-rune.js",
+  "exports": "dist/react-rune.modern.js",
+  "module": "dist/react-rune.module.js",
+  "unpkg": "dist/react-rune.umd.js",
+  "dependencies": {
+    "microbundle": "^0.13.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "rune.js": "^1.1.8"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romellogoodman/react-rune.git"
+  },
+  "keywords": [],
+  "author": "Romello Goodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romellogoodman/react-rune/issues"
+  },
+  "homepage": "https://github.com/romellogoodman/react-rune#readme"
+}
