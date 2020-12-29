@@ -1,5 +1,7 @@
 # react-rune
 
+[![npm version](https://badge.fury.io/js/react-rune.svg)](https://badge.fury.io/js/react-rune)
+
 React wrapper for [Rune.js](https://runemadsen.github.io/rune.js/index.html)
 
 ### Install
