@@ -25,7 +25,8 @@ const FooBar = () => {
     <>
       <div id="canvas" />
        <Rune height={400} width={400} draw={draw} />
-    </div>
+      </div>
+    <>
   );
 };
 
